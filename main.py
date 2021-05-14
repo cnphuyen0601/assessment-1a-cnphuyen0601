@@ -14,16 +14,12 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-width = float(input("Enter the width : "))
-height = float(input("Enter the height : "))
-
-
+width = float(input("Enter width: "))
+height = float(input("Enter height: "))
 area = width * height
 
-
-
-print("Width",width)
-print("Height",height)
+print("Enter width: ", width)
+print("Enter height: ", height)
 print("Area", area)
 
 
